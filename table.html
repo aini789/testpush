@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三行四列表格</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">三行四列表格</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>列1</th>
+                <th>列2</th>
+                <th>列3</th>
+                <th>列4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>行1-列1</td>
+                <td>行1-列2</td>
+                <td>行1-列3</td>
+                <td>行1-列4</td>
+            </tr>
+            <tr>
+                <td>行2-列1</td>
+                <td>行2-列2</td>
+                <td>行2-列3</td>
+                <td>行2-列4</td>
+            </tr>
+            <tr>
+                <td>行3-列1</td>
+                <td>行3-列2</td>
+                <td>行3-列3</td>
+                <td>行3-列4</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
